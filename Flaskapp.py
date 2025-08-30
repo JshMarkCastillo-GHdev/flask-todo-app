@@ -12,7 +12,7 @@ def home():
 @app.route("/add", methods=["POST"])
 def add_task():
     task = request.form.get("task") # get the input from the form
-    if task:
+    if task: # If a task is added
         tasks.append(task) # add to the list
     return redirect(url_for("home")) # redirect to home
 
