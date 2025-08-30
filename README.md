@@ -16,7 +16,7 @@ Tech Stack used
 
 Installation & Setup
 # Clone repo
-git clone git@github.com:YourUsername/flask-todo-app.git
+git@github.com:JshMarkCastillo-GHdev/flask-todo-app.git
 cd flask-todo-app
 
 # Create virtual environment
